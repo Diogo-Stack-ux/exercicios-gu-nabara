@@ -1,24 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fontes css</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
+      body {
+        font-family: Arial, Helvetica, sans-serif;
 
-        }
-        h1, h2 {
-            font-family: 'Courier New', Courier, monospace;
-        }
+        /*medidas absolutas
+            cm, mm, in, px, pt, pc
+            */
+
+        /*medidas relativas
+            em, ex, rem, vw, vh, %
+            16px é o tamanho padrão do navegador, 1em = 16px
+            */
+
+        font-size: 1em; /* 1em é igual a 16px */
+        font-weight: 400; /*font-weight: normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800, 900 */
+        font-style: italic; /*font-style: normal, italic, oblique */
+      }
+      h1 {
+        font-family: 'work sans', sans-serif;
+        font-weight: border;
+        font-size: 3em;
+        font-style: italic;
+
+        /*shorthand font
+            - font-style -> font-weight -> font-size/line-height -> font-family*/
+
+        font: italic bolder 3em 'work sans', sans-serif;
+      }
+
+      h2 {
+        font: bold 2em 'work sans', sans-serif;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Trabalhando com fontes css</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi distinctio deleniti autem, quis ad, voluptates necessitatibus non quisquam itaque error velit alias amet obcaecati officia repudiandae nulla temporibus? Incidunt, quo!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ullam omnis ratione commodi, nisi nesciunt fugit iusto earum corrupti. Quam nam autem laudantium. Eligendi praesentium blanditiis omnis quasi accusamus asperiores.</p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+      distinctio deleniti autem, quis ad, voluptates necessitatibus non quisquam
+      itaque error velit alias amet obcaecati officia repudiandae nulla
+      temporibus? Incidunt, quo!
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ullam omnis
+      ratione commodi, nisi nesciunt fugit iusto earum corrupti. Quam nam autem
+      laudantium. Eligendi praesentium blanditiis omnis quasi accusamus
+      asperiores.
+    </p>
     <h2>subtitulo do exercicio</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, animi tempore tempora omnis quasi odit porro ex maiores minima iure officia dignissimos consectetur blanditiis, repudiandae incidunt. Saepe id cum natus?</p>
-</body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, animi
+      tempore tempora omnis quasi odit porro ex maiores minima iure officia
+      dignissimos consectetur blanditiis, repudiandae incidunt. Saepe id cum
+      natus?
+    </p>
+  </body>
 </html>

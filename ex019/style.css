@@ -18,3 +18,19 @@ h2 {
     color: #555;
     margin-top: 20px;
 }
+
+.basico {
+    font-size: 1.2em;
+    color: #666;
+    margin: 10px 0;
+}
+.avancado {
+    font-size: 1.2em;
+    color: #007BFF;
+    margin: 10px 0;
+}
+.intermediario {
+    font-size: 1.2em;
+    color: #28A745;
+    margin: 10px 0;
+}

@@ -77,3 +77,35 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.extra {
+  background-color: #c8f7c5;
+  border: 2px solid #3ddc84;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
+  font-size: 0.95em;
+}
+.extra h3 {
+  background-color: #3ddc84;
+  color: white;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+  margin: -15px -15px 15px -15px;
+  font-size: 1.1em;
+}
+.extra ul {
+  list-style: none;
+  padding-left: 0;
+}
+.extra li {
+  margin: 5px 0;
+}
+.extra a {
+  color: #1a936f;
+  font-weight: bold;
+  text-decoration: none;
+}
+.extra a:hover {
+  text-decoration: underline;
+}
